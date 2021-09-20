@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+h1 {
+  font-size: 2rem;
+  color: red;
+}
+
+h2 {
+  color: lightskyblue;
+  padding: 1rem 0;
+}
+
+p,
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+p {
+  text-align: justify;
+  padding-bottom: 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto 5rem auto;
+  grid-gap: 3rem 2rem;
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+}
+
+.card-info {
+  padding: 1rem;
+}
